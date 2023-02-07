@@ -27,7 +27,7 @@
         //accessible depuis notre variable $voiture_methods
         $reponse = $voiture_methods->insert_voiture($voiture);
 
-        //Redirection vers la liste des voitures c'est-à-dire l'index
-        header("Location:../views/index.php");
+        //Redirection vers la liste des voitures
+        header("Location:../views/voitures.php");
     }
 ?>

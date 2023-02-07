@@ -12,6 +12,6 @@
       //accessible depuis notre variable $voiture_methods
       $reponse = $voiture_methods ->delete_voiture($id);
 
-      //Redirection vers la liste des voitures c'est-à-dire l'index
-      header("Location:../views/index.php");
+      //Redirection vers la liste des voitures
+      header("Location:../views/voitures.php");
 ?>
